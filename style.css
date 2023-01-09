@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'lobster', cursive;
+}
+
+.quantity{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #6190e8; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a7bfe8,
+		#6190e8
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#a7bfe8,
+		#6190e8
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.quantity h2{
+    text-transform: capitalize;
+    color: antiquewhite;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+
+.registeration-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    margin: 2em;
+    width: 400px;
+}
+
+.register-button{
+    padding: 1em;
+    border: none;
+    color: white;
+    font-size: 1em;
+    text-transform: capitalize;
+	border-radius: 1.5em;
+	background: #0cebeb; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#29ffc6,
+		#20e3b2,
+		#0cebeb
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#29ffc6,
+		#20e3b2,
+		#0cebeb
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+.form-input{
+    padding: 1em;
+    border:none;
+    border-radius: 1.5em;
+
+}
